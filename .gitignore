@@ -1,0 +1,5 @@
+.idea
+.terraform
+**/functions.zip
+**/main
+**/plan.out

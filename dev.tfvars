@@ -1,0 +1,6 @@
+hello_http_output_path="/tmp/function.zip"
+archive_bucket_name="ndgndg91-terraform-state"
+hello_http_function_name="terraform-function"
+hello_http_function_description="terraform-function"
+hello_http_function_runtime="go116"
+hello_http_function_entry_point="HelloHTTP"

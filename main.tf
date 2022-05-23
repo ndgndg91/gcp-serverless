@@ -51,3 +51,9 @@ resource "google_cloudfunctions_function_iam_member" "invoker" {
   role   = "roles/cloudfunctions.invoker"
   member = "allUsers"
 }
+
+
+resource "google_pubsub_topic" "dfinery" {
+  name = "dfinery-topic"
+  message_retention_duration = "86600s"
+}

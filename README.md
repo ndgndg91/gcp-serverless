@@ -1,5 +1,10 @@
 # gcp serverless example with terraform
 
+<h3>dependency</h3>
+<pre>
+go get cloud.google.com/go/pubsub
+</pre>
+
 <h3>install gcloud</h3>
 https://cloud.google.com/sdk/docs/install
 
